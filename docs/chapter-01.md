@@ -7,6 +7,15 @@ The single most important skill for a computer scientist is **problem solving**.
 
 On one level, you will be learning to program, a useful skill by itself. On another level, you will use programming as a means to an end. As we go along, that end will become clearer.
 
+---
+# 第一章：编程之道
+本书的目标是教你像一名计算机科学家一样思考。这种思考方法结合了数学、工程学和自然科学中一些很好的特点。对数学家、计算机科学家来说，他们使用形式化语言来表示想法（尤其是计算过程）；对于工程师们，他们设计、组装成为系统并在各种方案中进行评估权衡；而对于科学家们而言，他们理解众多复杂系统的步骤，通常是：观察、猜想、验证。
+
+对一个计算机科学家来说，首要技能是**解决问题**。解决问题体现了表述问题的能力，即有创造性地思考解决方案，然后把它清晰准确地表达出来。结果证明，学习编程的过程是一个锻炼解决问题技能的绝佳机会。这也正是本章为「编程之道」的原因。
+
+一方面，你将会学习如何编程，一个本身即很有用的技能。另一层面，你将会用编程作为一种到达终点的方法。当我们继续下去之后，终点就会逐渐变得清晰。
+
+---
 ## 1.1. The Python programming language
 The programming language you will be learning is Python. Python is an example of a high-level language; other **high-level languages** you might have heard of are C++, PHP, Pascal, C#, and Java.
 
