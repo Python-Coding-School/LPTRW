@@ -1,29 +1,54 @@
 # Chapter 1: The way of the program
 (Watch a video based on this chapter [here on YouTube](https://youtu.be/lhtUREG6vAg).)
 
+# 第一章：编程之道
+
 The goal of this book is to teach you to think like a computer scientist. This way of thinking combines some of the best features of mathematics, engineering, and natural science. Like mathematicians, computer scientists use formal languages to denote ideas (specifically computations). Like engineers, they design things, assembling components into systems and evaluating tradeoffs among alternatives. Like scientists, they observe the behavior of complex systems, form hypotheses, and test predictions.
+
+本书的目标是教你像一名计算机科学家一样思考。这种思考方法结合了数学、工程学和自然科学中一些很好的特点。对数学家、计算机科学家来说，他们使用形式化语言来表示想法（尤其是计算过程）；对于工程师们，他们设计、组装成为系统并在各种方案中进行评估权衡；而对于科学家们而言，他们理解众多复杂系统的步骤，通常是：观察、猜想、验证。
+
+---
 
 The single most important skill for a computer scientist is **problem solving**. Problem solving means the ability to formulate problems, think creatively about solutions, and express a solution clearly and accurately. As it turns out, the process of learning to program is an excellent opportunity to practice problem-solving skills. That’s why this chapter is called, The way of the program.
 
-On one level, you will be learning to program, a useful skill by itself. On another level, you will use programming as a means to an end. As we go along, that end will become clearer.
+对一位计算机科学家来说，首要技能是**解决问题**。解决问题体现了表述问题的能力，即有创造性地思考一些解决方案，然后把思考过程清晰准确地表达出来。结果证明，学习编程的过程是一个锻炼解决问题这一技能的绝佳机会。这也正是本章为「编程之道」的原因。
 
 ---
-# 第一章：编程之道
-本书的目标是教你像一名计算机科学家一样思考。这种思考方法结合了数学、工程学和自然科学中一些很好的特点。对数学家、计算机科学家来说，他们使用形式化语言来表示想法（尤其是计算过程）；对于工程师们，他们设计、组装成为系统并在各种方案中进行评估权衡；而对于科学家们而言，他们理解众多复杂系统的步骤，通常是：观察、猜想、验证。
 
-对一位计算机科学家来说，首要技能是**解决问题**。解决问题体现了表述问题的能力，即有创造性地思考一些解决方案，然后把思考过程清晰准确地表达出来。结果证明，学习编程的过程是一个锻炼解决问题这一技能的绝佳机会。这也正是本章为「编程之道」的原因。
+On one level, you will be learning to program, a useful skill by itself. On another level, you will use programming as a means to an end. As we go along, that end will become clearer.
 
 在一个层面上，你将会学习如何编程，这个本身就很有用的技能。在另一层面，你将会使用编程作为一种到达终点的方法。当我们继续深入学习，那个终点就会逐渐变得清晰。
 
 ---
+
 ## 1.1. The Python programming language
+## 1.1. Python 编程语言
+
 The programming language you will be learning is Python. Python is an example of a high-level language; other **high-level languages** you might have heard of are C++, PHP, Pascal, C#, and Java.
+
+你将要学习的编程语言叫做 Python，这是一门「高级编程语言」。其它你可能听说过的**高级编程语言** 包括 C++、 PHP、Pascal、C# 和 Java。
+
+---
 
 As you might infer from the name high-level language, there are also **low-level languages**, sometimes referred to as machine languages or assembly languages. Loosely speaking, computers can only execute programs written in low-level languages. Thus, programs written in a high-level language have to be translated into something more suitable before they can run.
 
+正如你可能会从「高级编程语言」这个名字来推理，的确也有一些**低级编程语言**，有时也会被称为「机器语言」或「汇编语言」。宽松地说，计算机只能执行用「低级编程语言」写的程序。换句话说，用「高级编程语言」写的程序，在能运行之前必须要被翻译成一些更适合机器理解的东西，也就是「机器语言」。
+
+---
+
 Almost all programs are written in high-level languages because of their advantages. It is much easier to program in a high-level language so programs take less time to write, they are shorter and easier to read, and they are more likely to be correct. Second, high-level languages are **portable**, meaning that they can run on different kinds of computers with few or no modifications.
 
+因为高级编程语言的优势，几乎所有的程序都是用高级编程语言写的。（相较于机器语言，使用高级编程语言时，）花在写代码上的时间更少，代码更简短且易读，也就更可能写对，因此用高级编程语言编程更容易。其次，高级编程语言都是**跨平台的**，意味着写出来的程序只要很少的修改甚至无需修改，就可以在不同种类的计算机上运行。
+
+---
+
 In this edition of the textbook, we use an online programming environment called **Replit**. To follow along with the examples and complete the exercises, all you need is a free account - just navigate to https://replit.com and complete the sign up process.
+
+在这本教材中，我们使用一个叫做 **Replit** 的线上编程环境[^1]。你只需要注册一个免费账号，就可以跟着本书的例子学习并完成习题了。访问 https://replit.com 去完成注册吧。
+
+[^1]: 中文用户推荐使用 [Runoob 的在线环境](https://c.runoob.com/compile/9/)，无需注册。
+
+---
 
 Once you have an account, create a new repl and choose Python as the language from the dropdown. You’ll see it automatically creates a file called `main.py`. By convention, files that contain Python programs have names that end with `.py`.
 
