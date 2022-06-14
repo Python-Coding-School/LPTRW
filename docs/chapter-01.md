@@ -64,7 +64,7 @@ The engine that translates and runs Python is called the **Python Interpreter**:
 
 ---
 
-![Running code in the interpreter (immediate mode)](../images/01-01-python-interpreter.png)
+<!-- ![Running code in the interpreter (immediate mode)](../images/01-01-python-interpreter.png) -->
 
 The `>>>` or `>` is called the **Python prompt**. The interpreter uses the prompt to indicate that it is ready for instructions. We typed `2 + 2`, and the interpreter evaluated our expression, and replied `4`, and on the next line it gave a new prompt, indicating that it is ready for more input.
 
