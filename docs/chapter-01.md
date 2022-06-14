@@ -159,9 +159,19 @@ That may be a little vague, but we will come back to this topic later when we ta
 ---
 
 ## 1.3. What is debugging?
+## 1.3. 什么是 Debug？
+
 Programming is a complex process, and because it is done by human beings, it often leads to errors. Programming errors are called **bugs** and the process of tracking them down and correcting them is called **debugging**. Use of the term bug to describe small engineering difficulties dates back to at least 1889, when Thomas Edison had a bug with his phonograph.
 
+编程是一个复杂的过程，因为这是由人来完成的，所以也就导致经常出错。编程中出现的错误被叫做**bug**，追踪并纠正错误的过程就叫 **debug**。我们用 **bug** 这个术语描述工程上遇到的小困难，这个说法至少可以追溯到 1889 年，因为当年托马斯・爱迪生在他的留声机里发现了一只虫子。
+
+---
+
 Three kinds of errors can occur in a program: [syntax errors](https://en.wikipedia.org/wiki/Syntax_error), [runtime errors](https://en.wikipedia.org/wiki/Runtime_(program_lifecycle_phase)), and [semantic errors](https://en.wikipedia.org/wiki/Logic_error). It is useful to distinguish between them in order to track them down more quickly.
+
+在一个程序里可能有三类错误：**语法错误**、**运行时错误**、**语义错误**。为了能够快速追踪定位问题，我们有必要对这三类错误加以区分。
+
+---
 
 ## 1.4. Syntax errors
 Python can only execute a program if the program is syntactically correct; otherwise, the process fails and returns an error message. **Syntax** refers to the structure of a program and the rules about that structure. For example, in English, a sentence must begin with a capital letter and end with a period. this sentence contains a **syntax error**. So does this one
