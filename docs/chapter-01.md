@@ -52,16 +52,33 @@ In this edition of the textbook, we use an online programming environment called
 
 Once you have an account, create a new repl and choose Python as the language from the dropdown. You’ll see it automatically creates a file called `main.py`. By convention, files that contain Python programs have names that end with `.py`.
 
+当你拥有一个账号，新建了一个 repl 并从下拉菜单中选择了 Python 作为编程语言，你将会看到系统自动创建了一个 `main.py` 文件。我们约定，包含 Python 程序的文件以 `.py` 作为文件的扩展名。
+
+> 注：中文用户可以不注册账号，直接在 [RUNOOB 的在线环境](https://c.runoob.com/compile/9/) 中查看，这里系统自动创建的文件名为 `script.py`。
+
+---
 
 The engine that translates and runs Python is called the **Python Interpreter**: There are two ways to use it: immediate mode and script mode. In immediate mode, you type Python expressions into the Python Interpreter window, and the interpreter immediately shows the result:
+
+翻译并运行 Python 的引擎，我们称之为 **Python 解释器**。有两种方式使用 Python 解释器，「即时模式」和「脚本模式」。在「即时模式」，你在 Python 解释器窗口里输入 Python 表达式，然后解释器就会立即显示结果。
+
+---
 
 ![Running code in the interpreter (immediate mode)](../images/01-01-python-interpreter.png)
 
 The `>>>` or `>` is called the **Python prompt**. The interpreter uses the prompt to indicate that it is ready for instructions. We typed `2 + 2`, and the interpreter evaluated our expression, and replied `4`, and on the next line it gave a new prompt, indicating that it is ready for more input.
 
+符号 `>>>` 或 `>` 被称之为 **Python 提示符**。解释器用提示符来表明它已准备好接收指令。我们输入 `2 + 2`，接着解释器就计算我们的这个表达式，然后回复我们 `4`，在下一行，它又给了我们一个新的提示符，表明它正准备接收更多的输入指令。
+
+---
+
 Working directly in the interpreter is convenient for testing short bits of code because you get immediate feedback. Think of it as scratch paper used to help you work out problems. Anything longer than a few lines should be put into a script. Scripts have the advantage that they can be saved to disk, printed, and so on. To create a script, you can enter the code into the middle pane, as shown below
 
-![Running code from a file (script mode)](../images/01-02-running-a-script.png)
+因为你能直接收到反馈，所以使用解释器对于测试一些简短的代码片段来说会很方便。就像用草稿纸来演算一样。但代码量大一点的话，就应该使用脚本了。脚本的优势在于它们更易于被保存到磁盘上、易于打印等等。创建一个脚本，只需要像下面这样把代码输入进文本中即可。
+
+---
+
+<!-- ![Running code from a file (script mode)](../images/01-02-running-a-script.png) -->
 
 ```python
 print("My first program adds two numbers")
@@ -70,29 +87,76 @@ print(2+3)
 
 To execute the program, click the **Run** button in Replit. You’re now a computer programmer! Let’s take a look at some more theory before we start writing more advanced programs.
 
+要想执行程序，在网页上点击运行即可。你现在就是一名程序员了！在我们开始写更多高级程序之前，让我们一起先了解一些理论吧。
+
+---
+
 ## 1.2. What is a program?
+## 1.2. 什么是程序？
+
 A **program** is a sequence of instructions that specifies how to perform a computation. The computation might be something mathematical, such as solving a system of equations or finding the roots of a polynomial, but it can also be a symbolic computation, such as searching and replacing text in a document or (strangely enough) compiling a program.
 
+**程序** 是一个具体说明如何运行一个计算过程的指令序列。计算可以是数学上的，比如解方程或找出一个多项式的根，但也可以是一种形式上的计算，比如在一个文档里查找、替换指定文本，或者干脆就是编译一个程序。
+
+---
+
 The details look different in different languages, but a few basic instructions appear in just about every language:
+
+不同编程语言的细节看起来会不一样，但有一些基本的共通之处：
+
+---
 
 **input**
 - Get data from the keyboard, a file, or some other device.
 
+**输入**
+- 从键盘、文件或一些设备（如触摸屏）获取数据。
+
+---
+
 **output**
 - Display data on the screen or send data to a file or other device.
+
+**输出**
+- 在屏幕上展示数据或者把数据传输到一个文件或其它设备。
+
+---
 
 **math**
 - Perform basic mathematical operations like addition and multiplication.
 
+**计算**
+- 运行诸如加法、乘法的基本数学操作。
+
+---
+
 **conditional execution**
 - Check for certain conditions and execute the appropriate sequence of statements.
+
+**条件执行**
+- 检查到当满足特定条件时执行合适的表达式序列。
+
+---
 
 **repetition**
 - Perform some action repeatedly, usually with some variation.
 
+**循环**
+- 重复运行一些动作，通常伴随一些变化。
+
+---
+
 Believe it or not, that’s pretty much all there is to it. Every program you’ve ever used, no matter how complicated, is made up of instructions that look more or less like these. Thus, we can describe programming as the process of breaking a large, complex task into smaller and smaller subtasks until the subtasks are simple enough to be performed with sequences of these basic instructions.
 
+信不信由你，这差不多就是编程的全部了。你曾经使用过的每一个程序，无论多么复杂，都或多或少是这些指令组合而成。因此，我们可以这样描述：编程就是把一个大的、复杂的任务，不断地拆分、拆分、拆分，直到拆分成一系列我们能够以基础指令运行的子任务。
+
+---
+
 That may be a little vague, but we will come back to this topic later when we talk about **algorithms**.
+
+这么说可能有点含糊，等以后讲到**算法**时我们将会再回来讨论这个话题。
+
+---
 
 ## 1.3. What is debugging?
 Programming is a complex process, and because it is done by human beings, it often leads to errors. Programming errors are called **bugs** and the process of tracking them down and correcting them is called **debugging**. Use of the term bug to describe small engineering difficulties dates back to at least 1889, when Thomas Edison had a bug with his phonograph.
