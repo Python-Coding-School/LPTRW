@@ -174,9 +174,19 @@ Three kinds of errors can occur in a program: [syntax errors](https://en.wikiped
 ---
 
 ## 1.4. Syntax errors
+## 1.4. 语法错误
+
 Python can only execute a program if the program is syntactically correct; otherwise, the process fails and returns an error message. **Syntax** refers to the structure of a program and the rules about that structure. For example, in English, a sentence must begin with a capital letter and end with a period. this sentence contains a **syntax error**. So does this one
 
+Python 只有在语法正确时才会执行，不然就会失败并返回错误信息。**语法** 指的是一个程序的结构和结构对应的规则。举个例子，在（书面）英语里，一句话必须以一个大写字母开头、以一个句号结尾。否则，我们就称之为**语法错误**。
+
+---
+
 For most readers, a few syntax errors are not a significant problem, which is why we can read the poetry of E. E. Cummings without problems. Python is not so forgiving. If there is a single syntax error anywhere in your program, Python will display an error message and quit, and you will not be able to run your program. During the first few weeks of your programming career, you will probably spend a lot of time tracking down syntax errors. As you gain experience, though, you will make fewer errors and find them faster.
+
+对于大多数读者来说，有一些语法错误并不是什么严重的问题，这就解释了我们能够毫无障碍地阅读 E. E. Cummings 的诗歌的原因。Python 却不会这么善解人意，在程序里即使只要有一处小小的语法错误，它也会输出错误信息，然后退出。你没办法运行它。在你编程生涯的开头几个星期，你可能会花很多时间面对语法错误。当你有了一些经验之后，你就会少犯错这些语法错误，即使犯了语法错误也能更快地找出来了。
+
+---
 
 ## 1.5. Runtime errors
 The second type of error is a runtime error, so called because the error does not appear until you run the program. These errors are also called **exceptions** because they usually indicate that something exceptional (and bad) has happened.
