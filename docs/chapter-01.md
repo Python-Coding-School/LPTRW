@@ -189,9 +189,19 @@ For most readers, a few syntax errors are not a significant problem, which is wh
 ---
 
 ## 1.5. Runtime errors
+## 1.5. 运行时错误
+
 The second type of error is a runtime error, so called because the error does not appear until you run the program. These errors are also called **exceptions** because they usually indicate that something exceptional (and bad) has happened.
 
+第二类错误叫做「运行时错误」，因这类错误只会发生在运行程序的时而得名。这些错误也叫**异常**，因为它们通常表示一些意想不到的（坏）事发生了。
+
+---
+
 Runtime errors are rare in the simple programs you will see in the first few chapters, so it might be a while before you encounter one.
+
+你将会在开始的几章中发现，运行时错误少见于一些简单的程序中。所以你可能会等一段时间才会遇到这种情况。
+
+---
 
 ## 1.6. Semantic errors
 The third type of error is the **semantic error**. If there is a semantic error in your program, it will run successfully, in the sense that the computer will not generate any error messages, but it will not do the right thing. It will do something else. Specifically, it will do what you told it to do.
