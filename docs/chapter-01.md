@@ -204,9 +204,19 @@ Runtime errors are rare in the simple programs you will see in the first few cha
 ---
 
 ## 1.6. Semantic errors
+## 1.6. 语义错误
+
 The third type of error is the **semantic error**. If there is a semantic error in your program, it will run successfully, in the sense that the computer will not generate any error messages, but it will not do the right thing. It will do something else. Specifically, it will do what you told it to do.
 
+第三类错误叫做**语义错误**。如果你的程序里有一处语义错误，它可能运行成功，也就是说，计算机并不会生成任何错误信息，但是它就是没有做正确的事。它会做一些别的事，不过，它做的完全就是你让它做的。
+
+---
+
 The problem is that the program you wrote is not the program you wanted to write. The meaning of the program (its semantics) is wrong. Identifying semantic errors can be tricky because it requires you to work backward by looking at the output of the program and trying to figure out what it is doing.
+
+问题在于：你写的这个程序做的事，不是你真正想要的。这个程序的想法（语义）是错误的。识别语义错误会很棘手，因为它需要你回过头来从程序的输出结果反推，再尝试理解程序在做什么。
+
+---
 
 ## 1.7. Experimental debugging
 One of the most important skills you will acquire is debugging. Although it can be frustrating, debugging is one of the most intellectually rich, challenging, and interesting parts of programming.
