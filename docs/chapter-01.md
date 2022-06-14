@@ -44,13 +44,14 @@ Almost all programs are written in high-level languages because of their advanta
 
 In this edition of the textbook, we use an online programming environment called **Replit**. To follow along with the examples and complete the exercises, all you need is a free account - just navigate to https://replit.com and complete the sign up process.
 
-在这本教材中，我们使用一个叫做 **Replit** 的线上编程环境[^1]。你只需要注册一个免费账号，就可以跟着本书的例子学习并完成习题了。访问 https://replit.com 去完成注册吧。
+在这本教材中，我们使用一个叫做 **Replit** 的线上编程环境。你只需要注册一个免费账号，就可以跟着本书的例子学习并完成习题了。访问 https://replit.com 去完成注册吧。
 
-[^1]: 中文用户推荐使用 [Runoob 的在线环境](https://c.runoob.com/compile/9/)，无需注册。
+>注: 中文用户推荐使用 [RUNOOB 的在线环境](https://c.runoob.com/compile/9/)，无需注册。本文后续将使用中文在线环境替代 **Replit**。
 
 ---
 
 Once you have an account, create a new repl and choose Python as the language from the dropdown. You’ll see it automatically creates a file called `main.py`. By convention, files that contain Python programs have names that end with `.py`.
+
 
 The engine that translates and runs Python is called the **Python Interpreter**: There are two ways to use it: immediate mode and script mode. In immediate mode, you type Python expressions into the Python Interpreter window, and the interpreter immediately shows the result:
 
