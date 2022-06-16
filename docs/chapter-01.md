@@ -351,13 +351,31 @@ Some people judge the quality of a programming language by the simplicity of the
 ---
 
 ## 1.10. Comments
+## 1.10. 注释
+
 As programs get bigger and more complicated, they get more difficult to read. Formal languages are dense, and it is often difficult to look at a piece of code and figure out what it is doing, or why.
+
+当程序变得越来越大、越来越复杂的时候，也就越来越难以阅读。形式化语言都很紧凑，也就很难从一些代码片段来分辨出它在做什么，或者为什么这么做。
+
+---
 
 For this reason, it is a good idea to add notes to your programs to explain in natural language what the program is doing.
 
+因为这个原因，给你的程序添加注解，用自然语言对程序在做什么进行解释，就是一个好主意了。
+
+---
+
 A **comment** in a computer program is text that is intended only for the human reader — it is completely ignored by the interpreter.
 
+在一个计算机程序里，一个**注释**就是一段给人类阅读的文本 ———— 解释器会完全无视它。
+
+---
+
 In Python, the `#` token starts a comment. The rest of the line is ignored. Here is a new version of Hello, World!.
+
+在 Python 里，`#` 记号标志着注释的开始。那一行余下的部分会被忽略。下面看一个新版本的 Hello World！ 程序。
+
+---
 
 ```python
 #---------------------------------------------------
@@ -370,6 +388,10 @@ print("Hello, World!")     # Isn't this easy!
 ```
 
 You’ll also notice that we’ve left a blank line in the program. Blank lines are also ignored by the interpreter, but comments and blank lines can make your programs much easier for humans to parse. Use them liberally!
+
+你也一定注意到了我们在上面的程序里留了一处空行。空行也会被解释器忽略，但注释和空行能让你的程序更适合人类解析。好好使用它们！
+
+---
 
 ## 1.11. Glossary
 **algorithm**
