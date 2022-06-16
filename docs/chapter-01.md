@@ -319,7 +319,11 @@ People who grow up speaking a natural language—everyone—often have a hard ti
 Here are some suggestions for reading programs (and other formal languages). First, remember that formal languages are much more dense than natural languages, so it takes longer to read them. Also, the structure is very important, so it is usually not a good idea to read from top to bottom, left to right. Instead, learn to parse the program in your head, identifying the tokens and interpreting the structure. Finally, the details matter. Little things like spelling errors and bad punctuation, which you can get away with in natural languages, can make a big difference in a formal language.
 
 ## 1.9. The first program
+## 1.9. 第一个程序
+
 Traditionally, the first program written in a new language is called Hello, World! because all it does is display the words, Hello, World! In Python, the script looks like this: (For scripts, we’ll show line numbers to the left of the Python statements.)
+
+按照传统，使用新语言写的第一个程序叫 `Hello World!`。因为它所做的事就是打印出一行 `Hello World!`。在 Python 里，这个脚本看起来就像下面这样（至于脚本，我们会在 Python 的语句的左边显示出行数）：
 
 ```python
 print("Hello, World!")
@@ -328,13 +332,23 @@ print("Hello, World!")
 This is an example of using the print function, which doesn’t actually print anything on paper. It 
 displays a value on the screen. In this case, the result shown is
 
+这就是一个使用了打印的函数的例子，它并不真的在纸上打印任何东西。它只是在屏幕上显示一个值。这个例子里，结果看上去就是
+
 ```
 Hello, World!
 ```
 
 The quotation marks in the program mark the beginning and end of the value; they don’t appear in the result.
 
+程序里的引号标记着这个值的开始和结束，引号不会显示在结果里。
+
+---
+
 Some people judge the quality of a programming language by the simplicity of the Hello, World! program. By this standard, Python does about as well as possible.
+
+有些人以 Hello World! 这个程序的简洁性来判断一门编程语言的质量。从这个标准来说，Python 做得还不错。
+
+---
 
 ## 1.10. Comments
 As programs get bigger and more complicated, they get more difficult to read. Formal languages are dense, and it is often difficult to look at a piece of code and figure out what it is doing, or why.
