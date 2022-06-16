@@ -38,7 +38,7 @@ As you might infer from the name high-level language, there are also **low-level
 
 Almost all programs are written in high-level languages because of their advantages. It is much easier to program in a high-level language so programs take less time to write, they are shorter and easier to read, and they are more likely to be correct. Second, high-level languages are **portable**, meaning that they can run on different kinds of computers with few or no modifications.
 
-因为高级编程语言的优势，几乎所有的程序都是用高级编程语言写的。（相较于机器语言，使用高级编程语言时，）花在写代码上的时间更少，代码更简短且易读，也就更可能写对，因此用高级编程语言编程更容易。其次，高级编程语言都是**跨平台的**，意味着写出来的程序只要很少的修改甚至无需修改，就可以在不同种类的计算机上运行。
+因为高级编程语言的优势，几乎所有的程序都是用高级编程语言写的。（相较于机器语言，使用高级编程语言时，）花在写代码上的时间更少，代码更简短且易读，也就更可能写对，因此用高级编程语言编程更容易。其次，高级编程语言都是**可移植的**，意味着写出来的程序只要很少的修改甚至无需修改，就可以在不同种类的计算机上运行。
 
 ---
 
