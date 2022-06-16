@@ -159,11 +159,11 @@ That may be a little vague, but we will come back to this topic later when we ta
 ---
 
 ## 1.3. What is debugging?
-## 1.3. 什么是 Debug？
+## 1.3. 什么是调试？
 
 Programming is a complex process, and because it is done by human beings, it often leads to errors. Programming errors are called **bugs** and the process of tracking them down and correcting them is called **debugging**. Use of the term bug to describe small engineering difficulties dates back to at least 1889, when Thomas Edison had a bug with his phonograph.
 
-编程是一个复杂的过程，因为这是由人来完成的，所以也就导致经常出错。编程中出现的错误被叫做**bug**，追踪并纠正错误的过程就叫 **debug**。我们用 **bug** 这个术语描述工程上遇到的小困难，这个说法至少可以追溯到 1889 年，因为当年托马斯・爱迪生在他的留声机里发现了一只虫子。
+编程是一个复杂的过程，因为这是由人来完成的，所以也就导致经常出错。编程中出现的错误被叫做**bug**，追踪并纠正错误的过程就叫**调试（debug）**。我们用 **bug** 这个术语描述工程上遇到的小困难，这个说法至少可以追溯到 1889 年，因为当年托马斯・爱迪生在他的留声机里发现了一只虫子。
 
 ---
 
@@ -219,17 +219,43 @@ The problem is that the program you wrote is not the program you wanted to write
 ---
 
 ## 1.7. Experimental debugging
+## 1.7. 试验调试
+
 One of the most important skills you will acquire is debugging. Although it can be frustrating, debugging is one of the most intellectually rich, challenging, and interesting parts of programming.
+
+你将要习得的最重要的技能之一就是调试。尽管有时候会很令人沮丧，调试却是最具智慧、最具挑战的一项技能，也是编程中极有趣的部分。
+
+---
 
 In some ways, debugging is like detective work. You are confronted with clues, and you have to infer the processes and events that led to the results you see.
 
+从某种程度上说，调试就像一份侦探工作。你面对的是各种蛛丝马迹，你必须推理其中的过程，拨开云雾见日明。
+
+---
+
 Debugging is also like an experimental science. Once you have an idea what is going wrong, you modify your program and try again. If your hypothesis was correct, then you can predict the result of the modification, and you take a step closer to a working program. If your hypothesis was wrong, you have to come up with a new one. As Sherlock Holmes pointed out, When you have eliminated the impossible, whatever remains, however improbable, must be the truth. (A. Conan Doyle, _The Sign of Four_)
+
+调试也像是一门试验科学。一旦你知道了问题根源，修改你的程序，然后重试。如果你的猜想是对的，那你在修改的过程中就能预测出结果，然后你离一个正常运行的程序就更近了一步。如果你的猜想不对，那就重新思考。就像福尔摩斯指出的那样，当你排除了不可能的，不管多么不可思议，剩下的都是真相。（A. 柯南・道尔，_四个标记_）
+
+---
 
 For some people, programming and debugging are the same thing. That is, programming is the process of gradually debugging a program until it does what you want. The idea is that you should start with a program that does something and make small modifications, debugging them as you go, so that you always have a working program.
 
+对于一些人来说，编程和调试其实是一回事。那就是说，在你最终完成之前，编程是一个不断调试的过程。一个重要的思想是，你应该从一个可用的小的程序开始，一点一点，不断地修改、调试，这样你就总能保证程序是可用的。
+
+---
+
 For example, Linux is an operating system kernel that contains millions of lines of code, but it started out as a simple program Linus Torvalds used to explore the Intel 80386 chip. According to Larry Greenfield, one of Linus’s earlier projects was a program that would switch between displaying AAAA and BBBB. This later evolved to Linux (_The Linux Users’ Guide_ Beta Version 1).
 
+举例来说，Linux 是一个有着数百万行代码的操作系统内核，但它是从 Linus Torvalds 用来探索英特尔 80836 芯片而写的小程序开始的。据 Larry Greenfield 说，Linus 的早期项目里，有一个小程序，它的作用仅仅是交替打印 AAAA 和 BBBB。但是这个小程序，演进成了后来的 Linux（_Linux 用户指南_ Beta 版本1）。
+
+---
+
 Later chapters will make more suggestions about debugging and other programming practices.
+
+后面的章节，我们会对调试和其它编程实践给出更多的建议。
+
+---
 
 ## 1.8. Formal and natural languages
 **Natural languages** are the languages that people speak, such as English, Spanish, and French. They were not designed by people (although people try to impose some order on them); they evolved naturally.
