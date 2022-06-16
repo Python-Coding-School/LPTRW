@@ -258,13 +258,31 @@ Later chapters will make more suggestions about debugging and other programming 
 ---
 
 ## 1.8. Formal and natural languages
+## 1.8. 形式化语言和自然语言
+
 **Natural languages** are the languages that people speak, such as English, Spanish, and French. They were not designed by people (although people try to impose some order on them); they evolved naturally.
+
+**自然语言**是人类讲的语言，如英语、西班牙语、法语。这些不是人类设计的（虽然人类也尝试在里面强加一些规则），而是自然地演进而来。
+
+---
 
 **Formal languages** are languages that are designed by people for specific applications. For example, the notation that mathematicians use is a formal language that is particularly good at denoting relationships among numbers and symbols. Chemists use a formal language to represent the chemical structure of molecules. And most importantly:
 
+**形式化语言**是由人类为特定的应用而设计的语言。举例来说，数学上使用的记号就是一种形式化语言，它能很好地表示数字和符号的关系。化学家使用一种形式化语言来代表分子的化学结构。最重要的是：
+
+---
+
 _Programming languages are formal languages that have been designed to express computations._
 
+_编程语言是被设计为表示计算过程的形式化语言。_
+
+---
+
 Formal languages tend to have strict rules about syntax. For example, `3+3=6` is a syntactically correct mathematical statement, but `3=+6$` is not. `H2O` is a syntactically correct chemical name, but `2Zz` is not.
+
+形式化语言一般都有严格的语法。比如，`3+3=6` 是一个语法上正确的数学语句，但 `3=+6$` 却不是；`H2O` 是一个语法上正确的化学名称，但是 `2Zz` 却不是。
+
+---
 
 Syntax rules come in two flavors, pertaining to **tokens** and structure. Tokens are the basic elements of the language, such as words, numbers, parentheses, commas, and so on. In Python, a statement like `print("Happy New Year for ",2013)` has 6 tokens: a function name, an open parenthesis (round bracket), a string, a comma, a number, and a close parenthesis.
 
