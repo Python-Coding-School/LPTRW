@@ -394,37 +394,87 @@ You’ll also notice that we’ve left a blank line in the program. Blank lines 
 ---
 
 ## 1.11. Glossary
+## 1.11. 术语
+
 **algorithm**
 
 A set of specific steps for solving a category of problems.
+
+**算法**
+
+一个用来解决一类问题的明确的步骤的集合
+
+---
 
 **bug**
 
 An error in a program.
 
+**错误**
+
+程序里的错误。
+
+---
+
 **comment**
 
 Information in a program that is meant for other programmers (or anyone reading the source code) and has no effect on the execution of the program.
+
+**注释**
+
+在程序里对程序员（或任何阅读源码的人）有意义，但是不会被执行的一段信息。
+
+---
 
 **debugging**
 
 The process of finding and removing any of the three kinds of programming errors.
 
+**调试**
+
+寻找并移除任何可能的三种程序错误的过程。
+
+---
+
 **exception**
 
 Another name for a runtime error.
+
+**异常**
+
+运行时错误的另一个说法。
+
+---
 
 **formal language**
 
 Any one of the languages that people have designed for specific purposes, such as representing mathematical ideas or computer programs; all programming languages are formal languages.
 
+**形式化语言**
+
+任何一种由人类为明确的目的，比如表示数学思想或计算机程序，而设计的语言。所有的编程语言都是形式化语言。
+
+---
+
 **high-level language**
 
 A programming language like Python that is designed to be easy for humans to read and write.
 
+**高级语言**
+
+一种被设计成易于人类读写的编程语言，比如 Python。
+
+---
+
 **immediate mode**
 
 A style of using Python where we type expressions at the command prompt, and the results are shown immediately. Contrast with script, and see the entry under Python shell.
+
+**即时模式**
+
+一种使用 Python 的风格，
+
+---
 
 **interpreter**
 
@@ -458,45 +508,107 @@ A function used in a program or script that causes the Python interpreter to dis
 
 The process of formulating a problem, finding a solution, and expressing the solution.
 
+---
+
 **program**
 
 a sequence of instructions that specifies to a computer actions and computations to be performed.
+
+**程序**
+
+一系列针对计算机动作和指导计算过程的明确的指令。
+
+---
 
 **Python shell**
 
 An interactive user interface to the Python interpreter. The user of a Python shell types commands at the prompt (`>>>`), and presses the return key to send these commands immediately to the interpreter for processing. The word shell comes from Unix. In the PyScripter used in this RLE version of the book, the Interpreter Window is where we’d do the immediate mode interaction.
 
+**Python 控制台**
+
+Python 解释器的一个可交互用户界面。用户在提示符（`>>>`）处输入命令，按下回车键后就立即把命令发往解释器处理。Shell 一词来自 Unix。
+
+---
+
 **runtime error**
 
 An error that does not occur until the program has started to execute but that prevents the program from continuing.
+
+**运行时错误**
+
+只发生在程序开始执行时阻止程序继续运行的一种错误。
+
+---
 
 **script**
 
 A program stored in a file (usually one that will be interpreted).
 
+**脚本**
+
+（通常会被运行的）保存在文件里的程序。
+
+---
+
 **semantic error**
 
 An error in a program that makes it do something other than what the programmer intended.
+
+**语义错误**
+
+一种使程序不按程序员的想法运行的错误。
+
+---
 
 **semantics**
 
 The meaning of a program.
 
+**语义**
+
+程序的含义。
+
+---
+
 **source code**
 
 A program in a high-level language before being compiled.
+
+**源代码**
+
+被编译之前的高级语言程序。
+
+---
 
 **syntax**
 
 The structure of a program.
 
+**语法**
+
+程序的结构。
+
+---
+
 **syntax error**
 
 An error in a program that makes it impossible to parse — and therefore impossible to interpret.
 
+**语法错误**
+
+程序里的无法解析从而无法运行的一种错误。
+
+---
+
 **token**
 
 One of the basic elements of the syntactic structure of a program, analogous to a word in a natural language.
+
+**记号**
+
+程序语法结构中的一个基本元素。类似于自然语言中的一个单词。
+
+---
 
 ## 1.12. Exercises
 1. Write an English sentence with understandable semantics but incorrect syntax. Write another English sentence which has correct syntax but has semantic errors.
