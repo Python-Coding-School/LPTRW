@@ -472,7 +472,8 @@ A style of using Python where we type expressions at the command prompt, and the
 
 **即时模式**
 
-一种使用 Python 的风格，
+一种使用 Python 时，在命令行提示符处输入表达式，立即得到结果反馈的方式。#$@!%
+TODO: 这里不太好翻译，以后再来填坑。
 
 ---
 
@@ -480,33 +481,79 @@ A style of using Python where we type expressions at the command prompt, and the
 
 The engine that executes your Python scripts or expressions.
 
+**解释器**
+
+执行 Python 脚本或表达式的引擎。
+
+---
+
 **low-level language**
 
 A programming language that is designed to be easy for a computer to execute; also called machine language or assembly language.
+
+**低级语言**
+
+被设计成简易得可供计算机执行的编程语言，也称「机器语言」或「汇编语言」。
+
+---
 
 **natural language**
 
 Any one of the languages that people speak that evolved naturally.
 
+**自然语言**
+
+任何一种经自然演化的人类使用的语言。
+
+---
+
 **object code**
 
 The output of the compiler after it translates the program.
+
+**目标代码**
+
+编译器将程序翻译后的输出结果。
+
+---
 
 **parse**
 
 To examine a program and analyze the syntactic structure.
 
+**解析**
+
+检测程序并分析其语法结构。
+
+---
+
 **portability**
 
 A property of a program that can run on more than one kind of computer.
+
+**可移植性**
+
+程序可以在多种计算机上运行的属性。
+
+---
 
 **print function**
 
 A function used in a program or script that causes the Python interpreter to display a value on its output device.
 
+**打印函数**
+
+一个在程序或脚本中使用的，可以使 Python 解释器在其输出设备上显示结果的函数。
+
+---
+
 **problem solving**
 
 The process of formulating a problem, finding a solution, and expressing the solution.
+
+**求解**
+
+一个形式化问题、寻找答案并表述解决方案的过程。
 
 ---
 
